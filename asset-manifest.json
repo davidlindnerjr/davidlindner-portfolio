@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/davidlindner-portfolio/static/css/main.0fda14b9.chunk.css",
-    "main.js": "/davidlindner-portfolio/static/js/main.13d1078e.chunk.js",
-    "main.js.map": "/davidlindner-portfolio/static/js/main.13d1078e.chunk.js.map",
+    "main.js": "/davidlindner-portfolio/static/js/main.b58e849b.chunk.js",
+    "main.js.map": "/davidlindner-portfolio/static/js/main.b58e849b.chunk.js.map",
     "runtime-main.js": "/davidlindner-portfolio/static/js/runtime-main.c4b0c57f.js",
     "runtime-main.js.map": "/davidlindner-portfolio/static/js/runtime-main.c4b0c57f.js.map",
     "static/js/2.e7ce1488.chunk.js": "/davidlindner-portfolio/static/js/2.e7ce1488.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.c4b0c57f.js",
     "static/js/2.e7ce1488.chunk.js",
     "static/css/main.0fda14b9.chunk.css",
-    "static/js/main.13d1078e.chunk.js"
+    "static/js/main.b58e849b.chunk.js"
   ]
 }
