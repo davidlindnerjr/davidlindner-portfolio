@@ -3,7 +3,7 @@ import {makeStyles} from '@material-ui/core/styles';
 import {Typography, Box, Button} from '@material-ui/core';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
-import resume from '../images/Resume.pdf';
+//import resume from '../images/Resume.pdf';
 
 const useStyles = makeStyles(theme => ({
     mainContainer: {
@@ -165,9 +165,9 @@ const Resume = () => {
                 <Box component="div" style={{textAlign: "center"}}> 
                     <Button className={classes.button}>
                         <Link 
-                            to={resume} 
+                            to="https://davidlindner.github.io/Resume.pdf" 
+                            download
                             target="_blank" 
-                            className="classes.link"
                             style={{textDecoration: "none", color: "white"}}
                         >
                             Download Resume
