@@ -165,7 +165,7 @@ const Resume = () => {
                 <Box component="div" style={{textAlign: "center"}}> 
                     <Button className={classes.button}>
                         <Link 
-                            to="https://davidlindner.github.io/Resume.pdf" 
+                            to="https://davidlindnerjr.github.io/Resume.pdf" 
                             download
                             target="_blank" 
                             style={{textDecoration: "none", color: "white"}}
