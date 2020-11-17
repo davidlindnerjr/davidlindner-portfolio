@@ -6,7 +6,11 @@
 
 ## Deployed Version
 
+https://davidlindnerjr.github.io/davidlindner-portfolio/
+
 ## Resume
+
+https://docs.google.com/document/d/1rrRe_blo1J4EsHR84p4EFOpGQcVLGgBd-Z0d5K1wUPU/edit?usp=sharing
 
 ## License
 
