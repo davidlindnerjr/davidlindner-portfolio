@@ -2,8 +2,7 @@ import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import {Typography, Box, Button} from '@material-ui/core';
 import Navbar from './Navbar';
-import { Link } from 'react-router-dom';
-//import resume from '../images/Resume.pdf';
+import resume from '../images/Resume.pdf'
 
 const useStyles = makeStyles(theme => ({
     mainContainer: {
@@ -112,6 +111,10 @@ const useStyles = makeStyles(theme => ({
         justifyContent: "center",
         margin: "20px",
         padding: "10px"
+    },
+    link: {
+        color: "white",
+        textDecoration: "none"
     }
 }));
 
@@ -164,14 +167,7 @@ const Resume = () => {
                 </Box>
                 <Box component="div" style={{textAlign: "center"}}> 
                     <Button className={classes.button}>
-                        <Link 
-                            to="https://davidlindnerjr.github.io/Resume.pdf" 
-                            download
-                            target="_blank" 
-                            style={{textDecoration: "none", color: "white"}}
-                        >
-                            Download Resume
-                        </Link>
+                        <a className={classes.link} href={resume} rel="noreferrer" download target="_blank">Download Resume</a>
                     </Button>
                 </Box>
             </Box>
